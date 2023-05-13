@@ -1,5 +1,5 @@
-import Player from "../../../models/player/player"
+import Player from "../../../domain/player/player";
 
 export default interface IPlayerReadRepository {
-    read: (id: string) => Promise<Player>
+  read: (id: string) => Promise<Player>;
 }

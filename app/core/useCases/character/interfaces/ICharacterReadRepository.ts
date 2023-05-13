@@ -1,5 +1,5 @@
-import Character from "../../../models/character/character"
+import Character from "../../../domain/character/character";
 
 export default interface ICharacterWriteRepository {
-    read: (id: string) => Promise<Character>
+  read: (id: string) => Promise<Character>;
 }

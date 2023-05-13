@@ -1,5 +1,5 @@
-import CharacterDto from "../../../models/character/dto/characterDto"
+import CharacterDto from "../../../domain/character/dto/characterDto";
 
 export default interface ICharacterWriteRepository {
-    create: (characterDto: CharacterDto) => Promise<void>
+  create: (characterDto: CharacterDto) => Promise<void>;
 }
